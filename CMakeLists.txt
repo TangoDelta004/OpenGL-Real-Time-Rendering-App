@@ -12,7 +12,17 @@ include_directories(glfw/include)
 # Including GLAD
 include_directories(glad/include)
 
-set(SOURCE_FILES main.cpp glad/src/glad.c)
+set(SOURCE_FILES glad/src/glad.c
+        EBO.cpp
+        shaderClass.cpp
+        VAO.cpp
+        VBO.cpp
+        main.cpp
+        EBO.h
+        shaderClass.h
+        VAO.h
+        VBO.h
+)
 
 add_executable(${CMAKE_PROJECT_NAME} ${SOURCE_FILES})
 
