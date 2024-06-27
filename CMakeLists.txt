@@ -4,15 +4,10 @@ project(LearnOpenGL-CLion)
 find_package(OpenGL REQUIRED)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+add_subdirectory(libraries/lib/glfw)
+include_directories(libraries/include)
 
-# Including GLFW
-add_subdirectory(glfw)
-include_directories(glfw/include)
-
-# Including GLAD
-include_directories(glad/include)
-
-set(SOURCE_FILES glad/src/glad.c
+set(SOURCE_FILES
         EBO.cpp
         shaderClass.cpp
         VAO.cpp
@@ -22,6 +17,11 @@ set(SOURCE_FILES glad/src/glad.c
         shaderClass.h
         VAO.h
         VBO.h
+        glad.c
+        libraries/include/stb/stb_image.h
+        stb.cpp
+        texture.cpp
+        texture.h
 )
 
 add_executable(${CMAKE_PROJECT_NAME} ${SOURCE_FILES})

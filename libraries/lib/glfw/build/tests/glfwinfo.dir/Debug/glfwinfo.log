@@ -1,0 +1,5 @@
+﻿  Building Custom Rule C:/Users/Nick/source/repos/openGL tutorial/glfw-3.4/tests/CMakeLists.txt
+  glfwinfo.c
+  getopt.c
+  Generating Code...
+  glfwinfo.vcxproj -> C:\Users\Nick\source\repos\openGL tutorial\glfw-3.4\build\tests\Debug\glfwinfo.exe

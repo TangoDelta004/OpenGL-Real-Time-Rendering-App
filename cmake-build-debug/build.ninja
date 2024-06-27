@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/Nick/Graphics$ Projects/LearnOpenGL-CLion/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target LearnOpenGL-CLion
 
@@ -49,45 +49,59 @@ cmake_ninja_workdir = C$:/Users/Nick/Graphics$ Projects/LearnOpenGL-CLion/cmake-
 
 build cmake_object_order_depends_target_LearnOpenGL-CLion: phony || cmake_object_order_depends_target_glfw
 
-build CMakeFiles/LearnOpenGL-CLion.dir/glad/src/glad.c.obj: C_COMPILER__LearnOpenGL-CLion_unscanned_Debug C$:/Users/Nick/Graphics$ Projects/LearnOpenGL-CLion/glad/src/glad.c || cmake_object_order_depends_target_LearnOpenGL-CLion
-  DEP_FILE = CMakeFiles\LearnOpenGL-CLion.dir\glad\src\glad.c.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/include" -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glad/include"
-  OBJECT_DIR = CMakeFiles\LearnOpenGL-CLion.dir
-  OBJECT_FILE_DIR = CMakeFiles\LearnOpenGL-CLion.dir\glad\src
-
-build CMakeFiles/LearnOpenGL-CLion.dir/EBO.cpp.obj: CXX_COMPILER__LearnOpenGL-CLion_unscanned_Debug C$:/Users/Nick/Graphics$ Projects/LearnOpenGL-CLion/EBO.cpp || cmake_object_order_depends_target_LearnOpenGL-CLion
+build CMakeFiles/LearnOpenGL-CLion.dir/EBO.cpp.obj: CXX_COMPILER__LearnOpenGL-CLion_unscanned_Debug C$:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/EBO.cpp || cmake_object_order_depends_target_LearnOpenGL-CLion
   DEP_FILE = CMakeFiles\LearnOpenGL-CLion.dir\EBO.cpp.obj.d
   FLAGS = -std=c++11 -g -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/include" -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glad/include"
+  INCLUDES = -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/include -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/include
   OBJECT_DIR = CMakeFiles\LearnOpenGL-CLion.dir
   OBJECT_FILE_DIR = CMakeFiles\LearnOpenGL-CLion.dir
 
-build CMakeFiles/LearnOpenGL-CLion.dir/shaderClass.cpp.obj: CXX_COMPILER__LearnOpenGL-CLion_unscanned_Debug C$:/Users/Nick/Graphics$ Projects/LearnOpenGL-CLion/shaderClass.cpp || cmake_object_order_depends_target_LearnOpenGL-CLion
+build CMakeFiles/LearnOpenGL-CLion.dir/shaderClass.cpp.obj: CXX_COMPILER__LearnOpenGL-CLion_unscanned_Debug C$:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/shaderClass.cpp || cmake_object_order_depends_target_LearnOpenGL-CLion
   DEP_FILE = CMakeFiles\LearnOpenGL-CLion.dir\shaderClass.cpp.obj.d
   FLAGS = -std=c++11 -g -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/include" -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glad/include"
+  INCLUDES = -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/include -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/include
   OBJECT_DIR = CMakeFiles\LearnOpenGL-CLion.dir
   OBJECT_FILE_DIR = CMakeFiles\LearnOpenGL-CLion.dir
 
-build CMakeFiles/LearnOpenGL-CLion.dir/VAO.cpp.obj: CXX_COMPILER__LearnOpenGL-CLion_unscanned_Debug C$:/Users/Nick/Graphics$ Projects/LearnOpenGL-CLion/VAO.cpp || cmake_object_order_depends_target_LearnOpenGL-CLion
+build CMakeFiles/LearnOpenGL-CLion.dir/VAO.cpp.obj: CXX_COMPILER__LearnOpenGL-CLion_unscanned_Debug C$:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/VAO.cpp || cmake_object_order_depends_target_LearnOpenGL-CLion
   DEP_FILE = CMakeFiles\LearnOpenGL-CLion.dir\VAO.cpp.obj.d
   FLAGS = -std=c++11 -g -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/include" -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glad/include"
+  INCLUDES = -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/include -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/include
   OBJECT_DIR = CMakeFiles\LearnOpenGL-CLion.dir
   OBJECT_FILE_DIR = CMakeFiles\LearnOpenGL-CLion.dir
 
-build CMakeFiles/LearnOpenGL-CLion.dir/VBO.cpp.obj: CXX_COMPILER__LearnOpenGL-CLion_unscanned_Debug C$:/Users/Nick/Graphics$ Projects/LearnOpenGL-CLion/VBO.cpp || cmake_object_order_depends_target_LearnOpenGL-CLion
+build CMakeFiles/LearnOpenGL-CLion.dir/VBO.cpp.obj: CXX_COMPILER__LearnOpenGL-CLion_unscanned_Debug C$:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/VBO.cpp || cmake_object_order_depends_target_LearnOpenGL-CLion
   DEP_FILE = CMakeFiles\LearnOpenGL-CLion.dir\VBO.cpp.obj.d
   FLAGS = -std=c++11 -g -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/include" -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glad/include"
+  INCLUDES = -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/include -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/include
   OBJECT_DIR = CMakeFiles\LearnOpenGL-CLion.dir
   OBJECT_FILE_DIR = CMakeFiles\LearnOpenGL-CLion.dir
 
-build CMakeFiles/LearnOpenGL-CLion.dir/main.cpp.obj: CXX_COMPILER__LearnOpenGL-CLion_unscanned_Debug C$:/Users/Nick/Graphics$ Projects/LearnOpenGL-CLion/main.cpp || cmake_object_order_depends_target_LearnOpenGL-CLion
+build CMakeFiles/LearnOpenGL-CLion.dir/main.cpp.obj: CXX_COMPILER__LearnOpenGL-CLion_unscanned_Debug C$:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/main.cpp || cmake_object_order_depends_target_LearnOpenGL-CLion
   DEP_FILE = CMakeFiles\LearnOpenGL-CLion.dir\main.cpp.obj.d
   FLAGS = -std=c++11 -g -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/include" -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glad/include"
+  INCLUDES = -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/include -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/include
+  OBJECT_DIR = CMakeFiles\LearnOpenGL-CLion.dir
+  OBJECT_FILE_DIR = CMakeFiles\LearnOpenGL-CLion.dir
+
+build CMakeFiles/LearnOpenGL-CLion.dir/glad.c.obj: C_COMPILER__LearnOpenGL-CLion_unscanned_Debug C$:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/glad.c || cmake_object_order_depends_target_LearnOpenGL-CLion
+  DEP_FILE = CMakeFiles\LearnOpenGL-CLion.dir\glad.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/include -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/include
+  OBJECT_DIR = CMakeFiles\LearnOpenGL-CLion.dir
+  OBJECT_FILE_DIR = CMakeFiles\LearnOpenGL-CLion.dir
+
+build CMakeFiles/LearnOpenGL-CLion.dir/stb.cpp.obj: CXX_COMPILER__LearnOpenGL-CLion_unscanned_Debug C$:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/stb.cpp || cmake_object_order_depends_target_LearnOpenGL-CLion
+  DEP_FILE = CMakeFiles\LearnOpenGL-CLion.dir\stb.cpp.obj.d
+  FLAGS = -std=c++11 -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/include -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/include
+  OBJECT_DIR = CMakeFiles\LearnOpenGL-CLion.dir
+  OBJECT_FILE_DIR = CMakeFiles\LearnOpenGL-CLion.dir
+
+build CMakeFiles/LearnOpenGL-CLion.dir/texture.cpp.obj: CXX_COMPILER__LearnOpenGL-CLion_unscanned_Debug C$:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/texture.cpp || cmake_object_order_depends_target_LearnOpenGL-CLion
+  DEP_FILE = CMakeFiles\LearnOpenGL-CLion.dir\texture.cpp.obj.d
+  FLAGS = -std=c++11 -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/include -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/include
   OBJECT_DIR = CMakeFiles\LearnOpenGL-CLion.dir
   OBJECT_FILE_DIR = CMakeFiles\LearnOpenGL-CLion.dir
 
@@ -99,9 +113,9 @@ build CMakeFiles/LearnOpenGL-CLion.dir/main.cpp.obj: CXX_COMPILER__LearnOpenGL-C
 #############################################
 # Link the executable LearnOpenGL-CLion.exe
 
-build LearnOpenGL-CLion.exe: CXX_EXECUTABLE_LINKER__LearnOpenGL-CLion_Debug CMakeFiles/LearnOpenGL-CLion.dir/glad/src/glad.c.obj CMakeFiles/LearnOpenGL-CLion.dir/EBO.cpp.obj CMakeFiles/LearnOpenGL-CLion.dir/shaderClass.cpp.obj CMakeFiles/LearnOpenGL-CLion.dir/VAO.cpp.obj CMakeFiles/LearnOpenGL-CLion.dir/VBO.cpp.obj CMakeFiles/LearnOpenGL-CLion.dir/main.cpp.obj | glfw/src/libglfw3.a || glfw/src/libglfw3.a
+build LearnOpenGL-CLion.exe: CXX_EXECUTABLE_LINKER__LearnOpenGL-CLion_Debug CMakeFiles/LearnOpenGL-CLion.dir/EBO.cpp.obj CMakeFiles/LearnOpenGL-CLion.dir/shaderClass.cpp.obj CMakeFiles/LearnOpenGL-CLion.dir/VAO.cpp.obj CMakeFiles/LearnOpenGL-CLion.dir/VBO.cpp.obj CMakeFiles/LearnOpenGL-CLion.dir/main.cpp.obj CMakeFiles/LearnOpenGL-CLion.dir/glad.c.obj CMakeFiles/LearnOpenGL-CLion.dir/stb.cpp.obj CMakeFiles/LearnOpenGL-CLion.dir/texture.cpp.obj | libraries/lib/glfw/src/libglfw3.a || libraries/lib/glfw/src/libglfw3.a
   FLAGS = -std=c++11 -g
-  LINK_LIBRARIES = glfw/src/libglfw3.a  -lopengl32  -lglu32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = libraries/lib/glfw/src/libglfw3.a  -lopengl32  -lglu32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\LearnOpenGL-CLion.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -114,7 +128,7 @@ build LearnOpenGL-CLion.exe: CXX_EXECUTABLE_LINKER__LearnOpenGL-CLion_Debug CMak
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Nick\Graphics Projects\LearnOpenGL-CLion\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\Nick\GraphicsProjects\LearnOpenGL-CLion\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -125,7 +139,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Nick\Graphics Projects\LearnOpenGL-CLion\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Nick\Graphics Projects\LearnOpenGL-CLion" -B"C:\Users\Nick\Graphics Projects\LearnOpenGL-CLion\cmake-build-debug""
+  COMMAND = cmd.exe /C "cd /D C:\Users\Nick\GraphicsProjects\LearnOpenGL-CLion\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\Nick\GraphicsProjects\LearnOpenGL-CLion -BC:\Users\Nick\GraphicsProjects\LearnOpenGL-CLion\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -143,7 +157,7 @@ build list_install_components: phony
 # Utility command for install
 
 build CMakeFiles/install.util: CUSTOM_COMMAND all
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Nick\Graphics Projects\LearnOpenGL-CLion\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Nick\GraphicsProjects\LearnOpenGL-CLion\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -155,7 +169,7 @@ build install: phony CMakeFiles/install.util
 # Utility command for install/local
 
 build CMakeFiles/install/local.util: CUSTOM_COMMAND all
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Nick\Graphics Projects\LearnOpenGL-CLion\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Nick\GraphicsProjects\LearnOpenGL-CLion\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -167,7 +181,7 @@ build install/local: phony CMakeFiles/install/local.util
 # Utility command for install/strip
 
 build CMakeFiles/install/strip.util: CUSTOM_COMMAND all
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Nick\Graphics Projects\LearnOpenGL-CLion\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Nick\GraphicsProjects\LearnOpenGL-CLion\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -176,90 +190,90 @@ build install/strip: phony CMakeFiles/install/strip.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/CMakeLists.txt
+# C:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/CMakeLists.txt
 # =============================================================================
 
 
 #############################################
 # Utility command for uninstall
 
-build glfw/uninstall: phony glfw/CMakeFiles/uninstall
+build libraries/lib/glfw/uninstall: phony libraries/lib/glfw/CMakeFiles/uninstall
 
 
 #############################################
 # Utility command for edit_cache
 
-build glfw/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Nick\Graphics Projects\LearnOpenGL-CLion\cmake-build-debug\glfw" && "C:\Program Files\JetBrains\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+build libraries/lib/glfw/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Users\Nick\GraphicsProjects\LearnOpenGL-CLion\cmake-build-debug\libraries\lib\glfw && "C:\Program Files\JetBrains\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
-build glfw/edit_cache: phony glfw/CMakeFiles/edit_cache.util
+build libraries/lib/glfw/edit_cache: phony libraries/lib/glfw/CMakeFiles/edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build glfw/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Nick\Graphics Projects\LearnOpenGL-CLion\cmake-build-debug\glfw" && "C:\Program Files\JetBrains\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Nick\Graphics Projects\LearnOpenGL-CLion" -B"C:\Users\Nick\Graphics Projects\LearnOpenGL-CLion\cmake-build-debug""
+build libraries/lib/glfw/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Users\Nick\GraphicsProjects\LearnOpenGL-CLion\cmake-build-debug\libraries\lib\glfw && "C:\Program Files\JetBrains\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\Nick\GraphicsProjects\LearnOpenGL-CLion -BC:\Users\Nick\GraphicsProjects\LearnOpenGL-CLion\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build glfw/rebuild_cache: phony glfw/CMakeFiles/rebuild_cache.util
+build libraries/lib/glfw/rebuild_cache: phony libraries/lib/glfw/CMakeFiles/rebuild_cache.util
 
 
 #############################################
 # Utility command for list_install_components
 
-build glfw/list_install_components: phony
+build libraries/lib/glfw/list_install_components: phony
 
 
 #############################################
 # Utility command for install
 
-build glfw/CMakeFiles/install.util: CUSTOM_COMMAND glfw/all
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Nick\Graphics Projects\LearnOpenGL-CLion\cmake-build-debug\glfw" && "C:\Program Files\JetBrains\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+build libraries/lib/glfw/CMakeFiles/install.util: CUSTOM_COMMAND libraries/lib/glfw/all
+  COMMAND = cmd.exe /C "cd /D C:\Users\Nick\GraphicsProjects\LearnOpenGL-CLion\cmake-build-debug\libraries\lib\glfw && "C:\Program Files\JetBrains\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
 
-build glfw/install: phony glfw/CMakeFiles/install.util
+build libraries/lib/glfw/install: phony libraries/lib/glfw/CMakeFiles/install.util
 
 
 #############################################
 # Utility command for install/local
 
-build glfw/CMakeFiles/install/local.util: CUSTOM_COMMAND glfw/all
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Nick\Graphics Projects\LearnOpenGL-CLion\cmake-build-debug\glfw" && "C:\Program Files\JetBrains\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+build libraries/lib/glfw/CMakeFiles/install/local.util: CUSTOM_COMMAND libraries/lib/glfw/all
+  COMMAND = cmd.exe /C "cd /D C:\Users\Nick\GraphicsProjects\LearnOpenGL-CLion\cmake-build-debug\libraries\lib\glfw && "C:\Program Files\JetBrains\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
 
-build glfw/install/local: phony glfw/CMakeFiles/install/local.util
+build libraries/lib/glfw/install/local: phony libraries/lib/glfw/CMakeFiles/install/local.util
 
 
 #############################################
 # Utility command for install/strip
 
-build glfw/CMakeFiles/install/strip.util: CUSTOM_COMMAND glfw/all
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Nick\Graphics Projects\LearnOpenGL-CLion\cmake-build-debug\glfw" && "C:\Program Files\JetBrains\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+build libraries/lib/glfw/CMakeFiles/install/strip.util: CUSTOM_COMMAND libraries/lib/glfw/all
+  COMMAND = cmd.exe /C "cd /D C:\Users\Nick\GraphicsProjects\LearnOpenGL-CLion\cmake-build-debug\libraries\lib\glfw && "C:\Program Files\JetBrains\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
 
-build glfw/install/strip: phony glfw/CMakeFiles/install/strip.util
+build libraries/lib/glfw/install/strip: phony libraries/lib/glfw/CMakeFiles/install/strip.util
 
 
 #############################################
-# Custom command for glfw\CMakeFiles\uninstall
+# Custom command for libraries\lib\glfw\CMakeFiles\uninstall
 
-build glfw/CMakeFiles/uninstall | ${cmake_ninja_workdir}glfw/CMakeFiles/uninstall: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Nick\Graphics Projects\LearnOpenGL-CLion\cmake-build-debug\glfw" && "C:\Program Files\JetBrains\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" -P "C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/cmake-build-debug/glfw/cmake_uninstall.cmake""
+build libraries/lib/glfw/CMakeFiles/uninstall | ${cmake_ninja_workdir}libraries/lib/glfw/CMakeFiles/uninstall: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Users\Nick\GraphicsProjects\LearnOpenGL-CLion\cmake-build-debug\libraries\lib\glfw && "C:\Program Files\JetBrains\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" -P C:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/cmake-build-debug/libraries/lib/glfw/cmake_uninstall.cmake"
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/CMakeLists.txt
+# C:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -269,175 +283,175 @@ build glfw/CMakeFiles/uninstall | ${cmake_ninja_workdir}glfw/CMakeFiles/uninstal
 #############################################
 # Order-only phony target for glfw
 
-build cmake_object_order_depends_target_glfw: phony || glfw/src/CMakeFiles/glfw.dir
+build cmake_object_order_depends_target_glfw: phony || libraries/lib/glfw/src/CMakeFiles/glfw.dir
 
-build glfw/src/CMakeFiles/glfw.dir/context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Nick/Graphics$ Projects/LearnOpenGL-CLion/glfw/src/context.c || cmake_object_order_depends_target_glfw
+build libraries/lib/glfw/src/CMakeFiles/glfw.dir/context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/src/context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = glfw\src\CMakeFiles\glfw.dir\context.c.obj.d
+  DEP_FILE = libraries\lib\glfw\src\CMakeFiles\glfw.dir\context.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/include" -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/src" -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/cmake-build-debug/glfw/src"
-  OBJECT_DIR = glfw\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = glfw\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/include -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/src -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/cmake-build-debug/libraries/lib/glfw/src
+  OBJECT_DIR = libraries\lib\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = libraries\lib\glfw\src\CMakeFiles\glfw.dir
 
-build glfw/src/CMakeFiles/glfw.dir/init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Nick/Graphics$ Projects/LearnOpenGL-CLion/glfw/src/init.c || cmake_object_order_depends_target_glfw
+build libraries/lib/glfw/src/CMakeFiles/glfw.dir/init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/src/init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = glfw\src\CMakeFiles\glfw.dir\init.c.obj.d
+  DEP_FILE = libraries\lib\glfw\src\CMakeFiles\glfw.dir\init.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/include" -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/src" -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/cmake-build-debug/glfw/src"
-  OBJECT_DIR = glfw\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = glfw\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/include -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/src -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/cmake-build-debug/libraries/lib/glfw/src
+  OBJECT_DIR = libraries\lib\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = libraries\lib\glfw\src\CMakeFiles\glfw.dir
 
-build glfw/src/CMakeFiles/glfw.dir/input.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Nick/Graphics$ Projects/LearnOpenGL-CLion/glfw/src/input.c || cmake_object_order_depends_target_glfw
+build libraries/lib/glfw/src/CMakeFiles/glfw.dir/input.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/src/input.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = glfw\src\CMakeFiles\glfw.dir\input.c.obj.d
+  DEP_FILE = libraries\lib\glfw\src\CMakeFiles\glfw.dir\input.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/include" -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/src" -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/cmake-build-debug/glfw/src"
-  OBJECT_DIR = glfw\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = glfw\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/include -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/src -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/cmake-build-debug/libraries/lib/glfw/src
+  OBJECT_DIR = libraries\lib\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = libraries\lib\glfw\src\CMakeFiles\glfw.dir
 
-build glfw/src/CMakeFiles/glfw.dir/monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Nick/Graphics$ Projects/LearnOpenGL-CLion/glfw/src/monitor.c || cmake_object_order_depends_target_glfw
+build libraries/lib/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/src/monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = glfw\src\CMakeFiles\glfw.dir\monitor.c.obj.d
+  DEP_FILE = libraries\lib\glfw\src\CMakeFiles\glfw.dir\monitor.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/include" -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/src" -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/cmake-build-debug/glfw/src"
-  OBJECT_DIR = glfw\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = glfw\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/include -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/src -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/cmake-build-debug/libraries/lib/glfw/src
+  OBJECT_DIR = libraries\lib\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = libraries\lib\glfw\src\CMakeFiles\glfw.dir
 
-build glfw/src/CMakeFiles/glfw.dir/platform.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Nick/Graphics$ Projects/LearnOpenGL-CLion/glfw/src/platform.c || cmake_object_order_depends_target_glfw
+build libraries/lib/glfw/src/CMakeFiles/glfw.dir/platform.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/src/platform.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = glfw\src\CMakeFiles\glfw.dir\platform.c.obj.d
+  DEP_FILE = libraries\lib\glfw\src\CMakeFiles\glfw.dir\platform.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/include" -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/src" -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/cmake-build-debug/glfw/src"
-  OBJECT_DIR = glfw\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = glfw\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/include -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/src -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/cmake-build-debug/libraries/lib/glfw/src
+  OBJECT_DIR = libraries\lib\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = libraries\lib\glfw\src\CMakeFiles\glfw.dir
 
-build glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Nick/Graphics$ Projects/LearnOpenGL-CLion/glfw/src/vulkan.c || cmake_object_order_depends_target_glfw
+build libraries/lib/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/src/vulkan.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = glfw\src\CMakeFiles\glfw.dir\vulkan.c.obj.d
+  DEP_FILE = libraries\lib\glfw\src\CMakeFiles\glfw.dir\vulkan.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/include" -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/src" -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/cmake-build-debug/glfw/src"
-  OBJECT_DIR = glfw\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = glfw\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/include -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/src -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/cmake-build-debug/libraries/lib/glfw/src
+  OBJECT_DIR = libraries\lib\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = libraries\lib\glfw\src\CMakeFiles\glfw.dir
 
-build glfw/src/CMakeFiles/glfw.dir/window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Nick/Graphics$ Projects/LearnOpenGL-CLion/glfw/src/window.c || cmake_object_order_depends_target_glfw
+build libraries/lib/glfw/src/CMakeFiles/glfw.dir/window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/src/window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = glfw\src\CMakeFiles\glfw.dir\window.c.obj.d
+  DEP_FILE = libraries\lib\glfw\src\CMakeFiles\glfw.dir\window.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/include" -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/src" -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/cmake-build-debug/glfw/src"
-  OBJECT_DIR = glfw\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = glfw\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/include -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/src -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/cmake-build-debug/libraries/lib/glfw/src
+  OBJECT_DIR = libraries\lib\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = libraries\lib\glfw\src\CMakeFiles\glfw.dir
 
-build glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Nick/Graphics$ Projects/LearnOpenGL-CLion/glfw/src/egl_context.c || cmake_object_order_depends_target_glfw
+build libraries/lib/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/src/egl_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = glfw\src\CMakeFiles\glfw.dir\egl_context.c.obj.d
+  DEP_FILE = libraries\lib\glfw\src\CMakeFiles\glfw.dir\egl_context.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/include" -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/src" -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/cmake-build-debug/glfw/src"
-  OBJECT_DIR = glfw\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = glfw\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/include -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/src -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/cmake-build-debug/libraries/lib/glfw/src
+  OBJECT_DIR = libraries\lib\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = libraries\lib\glfw\src\CMakeFiles\glfw.dir
 
-build glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Nick/Graphics$ Projects/LearnOpenGL-CLion/glfw/src/osmesa_context.c || cmake_object_order_depends_target_glfw
+build libraries/lib/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/src/osmesa_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = glfw\src\CMakeFiles\glfw.dir\osmesa_context.c.obj.d
+  DEP_FILE = libraries\lib\glfw\src\CMakeFiles\glfw.dir\osmesa_context.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/include" -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/src" -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/cmake-build-debug/glfw/src"
-  OBJECT_DIR = glfw\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = glfw\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/include -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/src -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/cmake-build-debug/libraries/lib/glfw/src
+  OBJECT_DIR = libraries\lib\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = libraries\lib\glfw\src\CMakeFiles\glfw.dir
 
-build glfw/src/CMakeFiles/glfw.dir/null_init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Nick/Graphics$ Projects/LearnOpenGL-CLion/glfw/src/null_init.c || cmake_object_order_depends_target_glfw
+build libraries/lib/glfw/src/CMakeFiles/glfw.dir/null_init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/src/null_init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = glfw\src\CMakeFiles\glfw.dir\null_init.c.obj.d
+  DEP_FILE = libraries\lib\glfw\src\CMakeFiles\glfw.dir\null_init.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/include" -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/src" -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/cmake-build-debug/glfw/src"
-  OBJECT_DIR = glfw\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = glfw\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/include -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/src -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/cmake-build-debug/libraries/lib/glfw/src
+  OBJECT_DIR = libraries\lib\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = libraries\lib\glfw\src\CMakeFiles\glfw.dir
 
-build glfw/src/CMakeFiles/glfw.dir/null_monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Nick/Graphics$ Projects/LearnOpenGL-CLion/glfw/src/null_monitor.c || cmake_object_order_depends_target_glfw
+build libraries/lib/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/src/null_monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = glfw\src\CMakeFiles\glfw.dir\null_monitor.c.obj.d
+  DEP_FILE = libraries\lib\glfw\src\CMakeFiles\glfw.dir\null_monitor.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/include" -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/src" -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/cmake-build-debug/glfw/src"
-  OBJECT_DIR = glfw\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = glfw\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/include -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/src -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/cmake-build-debug/libraries/lib/glfw/src
+  OBJECT_DIR = libraries\lib\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = libraries\lib\glfw\src\CMakeFiles\glfw.dir
 
-build glfw/src/CMakeFiles/glfw.dir/null_window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Nick/Graphics$ Projects/LearnOpenGL-CLion/glfw/src/null_window.c || cmake_object_order_depends_target_glfw
+build libraries/lib/glfw/src/CMakeFiles/glfw.dir/null_window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/src/null_window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = glfw\src\CMakeFiles\glfw.dir\null_window.c.obj.d
+  DEP_FILE = libraries\lib\glfw\src\CMakeFiles\glfw.dir\null_window.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/include" -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/src" -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/cmake-build-debug/glfw/src"
-  OBJECT_DIR = glfw\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = glfw\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/include -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/src -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/cmake-build-debug/libraries/lib/glfw/src
+  OBJECT_DIR = libraries\lib\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = libraries\lib\glfw\src\CMakeFiles\glfw.dir
 
-build glfw/src/CMakeFiles/glfw.dir/null_joystick.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Nick/Graphics$ Projects/LearnOpenGL-CLion/glfw/src/null_joystick.c || cmake_object_order_depends_target_glfw
+build libraries/lib/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/src/null_joystick.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = glfw\src\CMakeFiles\glfw.dir\null_joystick.c.obj.d
+  DEP_FILE = libraries\lib\glfw\src\CMakeFiles\glfw.dir\null_joystick.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/include" -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/src" -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/cmake-build-debug/glfw/src"
-  OBJECT_DIR = glfw\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = glfw\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/include -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/src -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/cmake-build-debug/libraries/lib/glfw/src
+  OBJECT_DIR = libraries\lib\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = libraries\lib\glfw\src\CMakeFiles\glfw.dir
 
-build glfw/src/CMakeFiles/glfw.dir/win32_module.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Nick/Graphics$ Projects/LearnOpenGL-CLion/glfw/src/win32_module.c || cmake_object_order_depends_target_glfw
+build libraries/lib/glfw/src/CMakeFiles/glfw.dir/win32_module.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/src/win32_module.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = glfw\src\CMakeFiles\glfw.dir\win32_module.c.obj.d
+  DEP_FILE = libraries\lib\glfw\src\CMakeFiles\glfw.dir\win32_module.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/include" -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/src" -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/cmake-build-debug/glfw/src"
-  OBJECT_DIR = glfw\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = glfw\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/include -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/src -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/cmake-build-debug/libraries/lib/glfw/src
+  OBJECT_DIR = libraries\lib\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = libraries\lib\glfw\src\CMakeFiles\glfw.dir
 
-build glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Nick/Graphics$ Projects/LearnOpenGL-CLion/glfw/src/win32_time.c || cmake_object_order_depends_target_glfw
+build libraries/lib/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/src/win32_time.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = glfw\src\CMakeFiles\glfw.dir\win32_time.c.obj.d
+  DEP_FILE = libraries\lib\glfw\src\CMakeFiles\glfw.dir\win32_time.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/include" -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/src" -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/cmake-build-debug/glfw/src"
-  OBJECT_DIR = glfw\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = glfw\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/include -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/src -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/cmake-build-debug/libraries/lib/glfw/src
+  OBJECT_DIR = libraries\lib\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = libraries\lib\glfw\src\CMakeFiles\glfw.dir
 
-build glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Nick/Graphics$ Projects/LearnOpenGL-CLion/glfw/src/win32_thread.c || cmake_object_order_depends_target_glfw
+build libraries/lib/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/src/win32_thread.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = glfw\src\CMakeFiles\glfw.dir\win32_thread.c.obj.d
+  DEP_FILE = libraries\lib\glfw\src\CMakeFiles\glfw.dir\win32_thread.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/include" -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/src" -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/cmake-build-debug/glfw/src"
-  OBJECT_DIR = glfw\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = glfw\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/include -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/src -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/cmake-build-debug/libraries/lib/glfw/src
+  OBJECT_DIR = libraries\lib\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = libraries\lib\glfw\src\CMakeFiles\glfw.dir
 
-build glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Nick/Graphics$ Projects/LearnOpenGL-CLion/glfw/src/win32_init.c || cmake_object_order_depends_target_glfw
+build libraries/lib/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/src/win32_init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = glfw\src\CMakeFiles\glfw.dir\win32_init.c.obj.d
+  DEP_FILE = libraries\lib\glfw\src\CMakeFiles\glfw.dir\win32_init.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/include" -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/src" -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/cmake-build-debug/glfw/src"
-  OBJECT_DIR = glfw\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = glfw\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/include -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/src -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/cmake-build-debug/libraries/lib/glfw/src
+  OBJECT_DIR = libraries\lib\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = libraries\lib\glfw\src\CMakeFiles\glfw.dir
 
-build glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Nick/Graphics$ Projects/LearnOpenGL-CLion/glfw/src/win32_joystick.c || cmake_object_order_depends_target_glfw
+build libraries/lib/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/src/win32_joystick.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = glfw\src\CMakeFiles\glfw.dir\win32_joystick.c.obj.d
+  DEP_FILE = libraries\lib\glfw\src\CMakeFiles\glfw.dir\win32_joystick.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/include" -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/src" -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/cmake-build-debug/glfw/src"
-  OBJECT_DIR = glfw\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = glfw\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/include -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/src -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/cmake-build-debug/libraries/lib/glfw/src
+  OBJECT_DIR = libraries\lib\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = libraries\lib\glfw\src\CMakeFiles\glfw.dir
 
-build glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Nick/Graphics$ Projects/LearnOpenGL-CLion/glfw/src/win32_monitor.c || cmake_object_order_depends_target_glfw
+build libraries/lib/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/src/win32_monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = glfw\src\CMakeFiles\glfw.dir\win32_monitor.c.obj.d
+  DEP_FILE = libraries\lib\glfw\src\CMakeFiles\glfw.dir\win32_monitor.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/include" -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/src" -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/cmake-build-debug/glfw/src"
-  OBJECT_DIR = glfw\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = glfw\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/include -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/src -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/cmake-build-debug/libraries/lib/glfw/src
+  OBJECT_DIR = libraries\lib\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = libraries\lib\glfw\src\CMakeFiles\glfw.dir
 
-build glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Nick/Graphics$ Projects/LearnOpenGL-CLion/glfw/src/win32_window.c || cmake_object_order_depends_target_glfw
+build libraries/lib/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/src/win32_window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = glfw\src\CMakeFiles\glfw.dir\win32_window.c.obj.d
+  DEP_FILE = libraries\lib\glfw\src\CMakeFiles\glfw.dir\win32_window.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/include" -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/src" -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/cmake-build-debug/glfw/src"
-  OBJECT_DIR = glfw\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = glfw\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/include -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/src -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/cmake-build-debug/libraries/lib/glfw/src
+  OBJECT_DIR = libraries\lib\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = libraries\lib\glfw\src\CMakeFiles\glfw.dir
 
-build glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Nick/Graphics$ Projects/LearnOpenGL-CLion/glfw/src/wgl_context.c || cmake_object_order_depends_target_glfw
+build libraries/lib/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/src/wgl_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = glfw\src\CMakeFiles\glfw.dir\wgl_context.c.obj.d
+  DEP_FILE = libraries\lib\glfw\src\CMakeFiles\glfw.dir\wgl_context.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/include" -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/src" -I"C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/cmake-build-debug/glfw/src"
-  OBJECT_DIR = glfw\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = glfw\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/include -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/src -IC:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/cmake-build-debug/libraries/lib/glfw/src
+  OBJECT_DIR = libraries\lib\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = libraries\lib\glfw\src\CMakeFiles\glfw.dir
 
 
 # =============================================================================
@@ -445,177 +459,177 @@ build glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C_COMPILER__glfw_unscanned
 
 
 #############################################
-# Link the static library glfw\src\libglfw3.a
+# Link the static library libraries\lib\glfw\src\libglfw3.a
 
-build glfw/src/libglfw3.a: C_STATIC_LIBRARY_LINKER__glfw_Debug glfw/src/CMakeFiles/glfw.dir/context.c.obj glfw/src/CMakeFiles/glfw.dir/init.c.obj glfw/src/CMakeFiles/glfw.dir/input.c.obj glfw/src/CMakeFiles/glfw.dir/monitor.c.obj glfw/src/CMakeFiles/glfw.dir/platform.c.obj glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj glfw/src/CMakeFiles/glfw.dir/window.c.obj glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj glfw/src/CMakeFiles/glfw.dir/null_init.c.obj glfw/src/CMakeFiles/glfw.dir/null_monitor.c.obj glfw/src/CMakeFiles/glfw.dir/null_window.c.obj glfw/src/CMakeFiles/glfw.dir/null_joystick.c.obj glfw/src/CMakeFiles/glfw.dir/win32_module.c.obj glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj
+build libraries/lib/glfw/src/libglfw3.a: C_STATIC_LIBRARY_LINKER__glfw_Debug libraries/lib/glfw/src/CMakeFiles/glfw.dir/context.c.obj libraries/lib/glfw/src/CMakeFiles/glfw.dir/init.c.obj libraries/lib/glfw/src/CMakeFiles/glfw.dir/input.c.obj libraries/lib/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj libraries/lib/glfw/src/CMakeFiles/glfw.dir/platform.c.obj libraries/lib/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj libraries/lib/glfw/src/CMakeFiles/glfw.dir/window.c.obj libraries/lib/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj libraries/lib/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj libraries/lib/glfw/src/CMakeFiles/glfw.dir/null_init.c.obj libraries/lib/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.obj libraries/lib/glfw/src/CMakeFiles/glfw.dir/null_window.c.obj libraries/lib/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.obj libraries/lib/glfw/src/CMakeFiles/glfw.dir/win32_module.c.obj libraries/lib/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj libraries/lib/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj libraries/lib/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj libraries/lib/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj libraries/lib/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj libraries/lib/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj libraries/lib/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj
   LANGUAGE_COMPILE_FLAGS = -g
-  OBJECT_DIR = glfw\src\CMakeFiles\glfw.dir
+  OBJECT_DIR = libraries\lib\glfw\src\CMakeFiles\glfw.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = glfw\src\libglfw3.a
+  TARGET_FILE = libraries\lib\glfw\src\libglfw3.a
   TARGET_PDB = glfw3.a.dbg
 
 
 #############################################
 # Utility command for update_mappings
 
-build glfw/src/update_mappings: phony glfw/src/CMakeFiles/update_mappings
+build libraries/lib/glfw/src/update_mappings: phony libraries/lib/glfw/src/CMakeFiles/update_mappings
 
 
 #############################################
 # Utility command for edit_cache
 
-build glfw/src/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Nick\Graphics Projects\LearnOpenGL-CLion\cmake-build-debug\glfw\src" && "C:\Program Files\JetBrains\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+build libraries/lib/glfw/src/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Users\Nick\GraphicsProjects\LearnOpenGL-CLion\cmake-build-debug\libraries\lib\glfw\src && "C:\Program Files\JetBrains\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
-build glfw/src/edit_cache: phony glfw/src/CMakeFiles/edit_cache.util
+build libraries/lib/glfw/src/edit_cache: phony libraries/lib/glfw/src/CMakeFiles/edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build glfw/src/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Nick\Graphics Projects\LearnOpenGL-CLion\cmake-build-debug\glfw\src" && "C:\Program Files\JetBrains\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Nick\Graphics Projects\LearnOpenGL-CLion" -B"C:\Users\Nick\Graphics Projects\LearnOpenGL-CLion\cmake-build-debug""
+build libraries/lib/glfw/src/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Users\Nick\GraphicsProjects\LearnOpenGL-CLion\cmake-build-debug\libraries\lib\glfw\src && "C:\Program Files\JetBrains\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\Nick\GraphicsProjects\LearnOpenGL-CLion -BC:\Users\Nick\GraphicsProjects\LearnOpenGL-CLion\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build glfw/src/rebuild_cache: phony glfw/src/CMakeFiles/rebuild_cache.util
+build libraries/lib/glfw/src/rebuild_cache: phony libraries/lib/glfw/src/CMakeFiles/rebuild_cache.util
 
 
 #############################################
 # Utility command for list_install_components
 
-build glfw/src/list_install_components: phony
+build libraries/lib/glfw/src/list_install_components: phony
 
 
 #############################################
 # Utility command for install
 
-build glfw/src/CMakeFiles/install.util: CUSTOM_COMMAND glfw/src/all
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Nick\Graphics Projects\LearnOpenGL-CLion\cmake-build-debug\glfw\src" && "C:\Program Files\JetBrains\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+build libraries/lib/glfw/src/CMakeFiles/install.util: CUSTOM_COMMAND libraries/lib/glfw/src/all
+  COMMAND = cmd.exe /C "cd /D C:\Users\Nick\GraphicsProjects\LearnOpenGL-CLion\cmake-build-debug\libraries\lib\glfw\src && "C:\Program Files\JetBrains\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
 
-build glfw/src/install: phony glfw/src/CMakeFiles/install.util
+build libraries/lib/glfw/src/install: phony libraries/lib/glfw/src/CMakeFiles/install.util
 
 
 #############################################
 # Utility command for install/local
 
-build glfw/src/CMakeFiles/install/local.util: CUSTOM_COMMAND glfw/src/all
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Nick\Graphics Projects\LearnOpenGL-CLion\cmake-build-debug\glfw\src" && "C:\Program Files\JetBrains\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+build libraries/lib/glfw/src/CMakeFiles/install/local.util: CUSTOM_COMMAND libraries/lib/glfw/src/all
+  COMMAND = cmd.exe /C "cd /D C:\Users\Nick\GraphicsProjects\LearnOpenGL-CLion\cmake-build-debug\libraries\lib\glfw\src && "C:\Program Files\JetBrains\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
 
-build glfw/src/install/local: phony glfw/src/CMakeFiles/install/local.util
+build libraries/lib/glfw/src/install/local: phony libraries/lib/glfw/src/CMakeFiles/install/local.util
 
 
 #############################################
 # Utility command for install/strip
 
-build glfw/src/CMakeFiles/install/strip.util: CUSTOM_COMMAND glfw/src/all
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Nick\Graphics Projects\LearnOpenGL-CLion\cmake-build-debug\glfw\src" && "C:\Program Files\JetBrains\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+build libraries/lib/glfw/src/CMakeFiles/install/strip.util: CUSTOM_COMMAND libraries/lib/glfw/src/all
+  COMMAND = cmd.exe /C "cd /D C:\Users\Nick\GraphicsProjects\LearnOpenGL-CLion\cmake-build-debug\libraries\lib\glfw\src && "C:\Program Files\JetBrains\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
 
-build glfw/src/install/strip: phony glfw/src/CMakeFiles/install/strip.util
+build libraries/lib/glfw/src/install/strip: phony libraries/lib/glfw/src/CMakeFiles/install/strip.util
 
 
 #############################################
-# Custom command for glfw\src\CMakeFiles\update_mappings
+# Custom command for libraries\lib\glfw\src\CMakeFiles\update_mappings
 
-build glfw/src/CMakeFiles/update_mappings | ${cmake_ninja_workdir}glfw/src/CMakeFiles/update_mappings: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Nick\Graphics Projects\LearnOpenGL-CLion\glfw\src" && "C:\Program Files\JetBrains\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" -P "C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/CMake/GenerateMappings.cmake" mappings.h.in mappings.h"
+build libraries/lib/glfw/src/CMakeFiles/update_mappings | ${cmake_ninja_workdir}libraries/lib/glfw/src/CMakeFiles/update_mappings: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Users\Nick\GraphicsProjects\LearnOpenGL-CLion\cmake-build-debug\libraries\lib\glfw\src && "C:\Program Files\JetBrains\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" -P C:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h"
   DESC = Updating gamepad mappings from upstream repository
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/glfw/CMakeLists.txt
+# C:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/CMakeLists.txt
 # =============================================================================
 
 
 #############################################
 # Utility command for edit_cache
 
-build glfw/docs/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Nick\Graphics Projects\LearnOpenGL-CLion\cmake-build-debug\glfw\docs" && "C:\Program Files\JetBrains\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+build libraries/lib/glfw/docs/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Users\Nick\GraphicsProjects\LearnOpenGL-CLion\cmake-build-debug\libraries\lib\glfw\docs && "C:\Program Files\JetBrains\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
-build glfw/docs/edit_cache: phony glfw/docs/CMakeFiles/edit_cache.util
+build libraries/lib/glfw/docs/edit_cache: phony libraries/lib/glfw/docs/CMakeFiles/edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build glfw/docs/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Nick\Graphics Projects\LearnOpenGL-CLion\cmake-build-debug\glfw\docs" && "C:\Program Files\JetBrains\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Nick\Graphics Projects\LearnOpenGL-CLion" -B"C:\Users\Nick\Graphics Projects\LearnOpenGL-CLion\cmake-build-debug""
+build libraries/lib/glfw/docs/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Users\Nick\GraphicsProjects\LearnOpenGL-CLion\cmake-build-debug\libraries\lib\glfw\docs && "C:\Program Files\JetBrains\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\Nick\GraphicsProjects\LearnOpenGL-CLion -BC:\Users\Nick\GraphicsProjects\LearnOpenGL-CLion\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build glfw/docs/rebuild_cache: phony glfw/docs/CMakeFiles/rebuild_cache.util
+build libraries/lib/glfw/docs/rebuild_cache: phony libraries/lib/glfw/docs/CMakeFiles/rebuild_cache.util
 
 
 #############################################
 # Utility command for list_install_components
 
-build glfw/docs/list_install_components: phony
+build libraries/lib/glfw/docs/list_install_components: phony
 
 
 #############################################
 # Utility command for install
 
-build glfw/docs/CMakeFiles/install.util: CUSTOM_COMMAND glfw/docs/all
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Nick\Graphics Projects\LearnOpenGL-CLion\cmake-build-debug\glfw\docs" && "C:\Program Files\JetBrains\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+build libraries/lib/glfw/docs/CMakeFiles/install.util: CUSTOM_COMMAND libraries/lib/glfw/docs/all
+  COMMAND = cmd.exe /C "cd /D C:\Users\Nick\GraphicsProjects\LearnOpenGL-CLion\cmake-build-debug\libraries\lib\glfw\docs && "C:\Program Files\JetBrains\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
 
-build glfw/docs/install: phony glfw/docs/CMakeFiles/install.util
+build libraries/lib/glfw/docs/install: phony libraries/lib/glfw/docs/CMakeFiles/install.util
 
 
 #############################################
 # Utility command for install/local
 
-build glfw/docs/CMakeFiles/install/local.util: CUSTOM_COMMAND glfw/docs/all
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Nick\Graphics Projects\LearnOpenGL-CLion\cmake-build-debug\glfw\docs" && "C:\Program Files\JetBrains\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+build libraries/lib/glfw/docs/CMakeFiles/install/local.util: CUSTOM_COMMAND libraries/lib/glfw/docs/all
+  COMMAND = cmd.exe /C "cd /D C:\Users\Nick\GraphicsProjects\LearnOpenGL-CLion\cmake-build-debug\libraries\lib\glfw\docs && "C:\Program Files\JetBrains\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
 
-build glfw/docs/install/local: phony glfw/docs/CMakeFiles/install/local.util
+build libraries/lib/glfw/docs/install/local: phony libraries/lib/glfw/docs/CMakeFiles/install/local.util
 
 
 #############################################
 # Utility command for install/strip
 
-build glfw/docs/CMakeFiles/install/strip.util: CUSTOM_COMMAND glfw/docs/all
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Nick\Graphics Projects\LearnOpenGL-CLion\cmake-build-debug\glfw\docs" && "C:\Program Files\JetBrains\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+build libraries/lib/glfw/docs/CMakeFiles/install/strip.util: CUSTOM_COMMAND libraries/lib/glfw/docs/all
+  COMMAND = cmd.exe /C "cd /D C:\Users\Nick\GraphicsProjects\LearnOpenGL-CLion\cmake-build-debug\libraries\lib\glfw\docs && "C:\Program Files\JetBrains\CLion 2024.1.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
 
-build glfw/docs/install/strip: phony glfw/docs/CMakeFiles/install/strip.util
+build libraries/lib/glfw/docs/install/strip: phony libraries/lib/glfw/docs/CMakeFiles/install/strip.util
 
 # =============================================================================
 # Target aliases.
 
 build LearnOpenGL-CLion: phony LearnOpenGL-CLion.exe
 
-build glfw: phony glfw/src/libglfw3.a
+build glfw: phony libraries/lib/glfw/src/libglfw3.a
 
-build libglfw3.a: phony glfw/src/libglfw3.a
+build libglfw3.a: phony libraries/lib/glfw/src/libglfw3.a
 
-build uninstall: phony glfw/uninstall
+build uninstall: phony libraries/lib/glfw/uninstall
 
-build update_mappings: phony glfw/src/update_mappings
+build update_mappings: phony libraries/lib/glfw/src/update_mappings
 
 # =============================================================================
 # Folder targets.
@@ -623,30 +637,30 @@ build update_mappings: phony glfw/src/update_mappings
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/cmake-build-debug
+# Folder: C:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/cmake-build-debug
 
-build all: phony LearnOpenGL-CLion.exe glfw/all
-
-# =============================================================================
-
-#############################################
-# Folder: C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/cmake-build-debug/glfw
-
-build glfw/all: phony glfw/src/all glfw/docs/all
+build all: phony LearnOpenGL-CLion.exe libraries/lib/glfw/all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/cmake-build-debug/glfw/docs
+# Folder: C:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/cmake-build-debug/libraries/lib/glfw
 
-build glfw/docs/all: phony
+build libraries/lib/glfw/all: phony libraries/lib/glfw/src/all libraries/lib/glfw/docs/all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/cmake-build-debug/glfw/src
+# Folder: C:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/cmake-build-debug/libraries/lib/glfw/docs
 
-build glfw/src/all: phony glfw/src/libglfw3.a
+build libraries/lib/glfw/docs/all: phony
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/cmake-build-debug/libraries/lib/glfw/src
+
+build libraries/lib/glfw/src/all: phony libraries/lib/glfw/src/libglfw3.a
 
 # =============================================================================
 # Built-in targets
@@ -655,14 +669,14 @@ build glfw/src/all: phony glfw/src/libglfw3.a
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDependentOption.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckLibraryExists.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/FindDoxygen.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/FindOpenGL.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/FindThreads.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/Nick/Graphics$ Projects/LearnOpenGL-CLion/CMakeLists.txt C$:/Users/Nick/Graphics$ Projects/LearnOpenGL-CLion/glfw/CMakeLists.txt C$:/Users/Nick/Graphics$ Projects/LearnOpenGL-CLion/glfw/CMake/cmake_uninstall.cmake.in C$:/Users/Nick/Graphics$ Projects/LearnOpenGL-CLion/glfw/CMake/glfw3.pc.in C$:/Users/Nick/Graphics$ Projects/LearnOpenGL-CLion/glfw/CMake/glfw3Config.cmake.in C$:/Users/Nick/Graphics$ Projects/LearnOpenGL-CLion/glfw/docs/CMakeLists.txt C$:/Users/Nick/Graphics$ Projects/LearnOpenGL-CLion/glfw/src/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDependentOption.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckLibraryExists.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/FindDoxygen.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/FindOpenGL.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/FindThreads.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/CMakeLists.txt C$:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/CMakeLists.txt C$:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/CMake/cmake_uninstall.cmake.in C$:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/CMake/glfw3.pc.in C$:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/CMake/glfw3Config.cmake.in C$:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/docs/CMakeLists.txt C$:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/src/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDependentOption.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckLibraryExists.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/FindDoxygen.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/FindOpenGL.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/FindThreads.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/Nick/Graphics$ Projects/LearnOpenGL-CLion/CMakeLists.txt C$:/Users/Nick/Graphics$ Projects/LearnOpenGL-CLion/glfw/CMakeLists.txt C$:/Users/Nick/Graphics$ Projects/LearnOpenGL-CLion/glfw/CMake/cmake_uninstall.cmake.in C$:/Users/Nick/Graphics$ Projects/LearnOpenGL-CLion/glfw/CMake/glfw3.pc.in C$:/Users/Nick/Graphics$ Projects/LearnOpenGL-CLion/glfw/CMake/glfw3Config.cmake.in C$:/Users/Nick/Graphics$ Projects/LearnOpenGL-CLion/glfw/docs/CMakeLists.txt C$:/Users/Nick/Graphics$ Projects/LearnOpenGL-CLion/glfw/src/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake: phony
+build C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDependentOption.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckLibraryExists.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/FindDoxygen.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/FindOpenGL.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/FindThreads.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/CMakeLists.txt C$:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/CMakeLists.txt C$:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/CMake/cmake_uninstall.cmake.in C$:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/CMake/glfw3.pc.in C$:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/CMake/glfw3Config.cmake.in C$:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/docs/CMakeLists.txt C$:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/src/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake: phony
 
 
 #############################################
