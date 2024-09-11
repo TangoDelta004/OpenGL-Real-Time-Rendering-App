@@ -7,6 +7,7 @@ in vec2 texCoord;
 in float useTex;
 
 uniform sampler2D tex0;
+uniform float opacity;
 
 void main()
 {
@@ -14,6 +15,6 @@ void main()
       FragColor = texture(tex0, texCoord);
    }
    else{
-      FragColor = vec4(color, 0.25f);
+      FragColor = vec4(color, opacity);
    }
 }

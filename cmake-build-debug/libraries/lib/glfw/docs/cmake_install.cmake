@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Nick/GraphicsProjects/LearnOpenGL-CLion/libraries/lib/glfw/docs
+# Install script for directory: C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/libraries/lib/glfw/docs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
