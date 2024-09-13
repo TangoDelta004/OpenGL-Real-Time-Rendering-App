@@ -22,6 +22,8 @@ set(SOURCE_FILES
         stb.cpp
         texture.cpp
         texture.h
+        Camera.h
+        Camera.cpp
 )
 
 add_executable(${CMAKE_PROJECT_NAME} ${SOURCE_FILES})
