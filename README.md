@@ -1,0 +1,1 @@
+This project follows the LearnOpenGL tutorials to cover concepts such as how to write shaders, add textures, make 3d matrix transformations, render lighting and many other Graphics Engine related topics. 
