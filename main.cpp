@@ -69,6 +69,63 @@ GLuint pyramidIndices[] = {
 	2, 3, 4
 };
 
+
+GLfloat roomVertices[] = {
+    // Positions          // Colors (shades of brown with shadows)
+    // Floor (dark brown with shadow)
+    -1.0f, -1.0f, -1.0f,  0.3f, 0.15f, 0.05f,  // 0
+     1.0f, -1.0f, -1.0f,  0.3f, 0.15f, 0.05f,  // 1
+     1.0f, -1.0f,  1.0f,  0.4f, 0.2f, 0.1f,    // 2
+    -1.0f, -1.0f,  1.0f,  0.4f, 0.2f, 0.1f,    // 3
+
+    // Ceiling (light brown)
+    -1.0f,  1.0f, -1.0f,  0.8f, 0.6f, 0.4f,    // 4
+     1.0f,  1.0f, -1.0f,  0.8f, 0.6f, 0.4f,    // 5
+     1.0f,  1.0f,  1.0f,  0.9f, 0.7f, 0.5f,    // 6
+    -1.0f,  1.0f,  1.0f,  0.9f, 0.7f, 0.5f,    // 7
+
+    // Back Wall (medium brown with shadow)
+    -1.0f, -1.0f, -1.0f,  0.5f, 0.3f, 0.1f,    // 8
+    -1.0f,  1.0f, -1.0f,  0.6f, 0.4f, 0.2f,    // 9
+     1.0f,  1.0f, -1.0f,  0.6f, 0.4f, 0.2f,    // 10
+     1.0f, -1.0f, -1.0f,  0.5f, 0.3f, 0.1f,    // 11
+
+    // Left Wall (brown with shadow)
+    -1.0f, -1.0f, -1.0f,  0.4f, 0.2f, 0.1f,    // 12
+    -1.0f, -1.0f,  1.0f,  0.5f, 0.3f, 0.1f,    // 13
+    -1.0f,  1.0f,  1.0f,  0.6f, 0.4f, 0.2f,    // 14
+    -1.0f,  1.0f, -1.0f,  0.5f, 0.3f, 0.1f,    // 15
+
+    // Right Wall (brown with shadow)
+     1.0f, -1.0f, -1.0f,  0.4f, 0.2f, 0.1f,    // 16
+     1.0f, -1.0f,  1.0f,  0.5f, 0.3f, 0.1f,    // 17
+     1.0f,  1.0f,  1.0f,  0.6f, 0.4f, 0.2f,    // 18
+     1.0f,  1.0f, -1.0f,  0.5f, 0.3f, 0.1f     // 19
+};
+
+GLuint roomIndices[] = {
+	// Floor
+	0, 1, 2,
+	2, 3, 0,
+
+	// Ceiling
+	4, 5, 6,
+	6, 7, 4,
+
+	// Back Wall
+	8, 9, 10,
+	10, 11, 8,
+
+	// Left Wall
+	12, 13, 14,
+	14, 15, 12,
+
+	// Right Wall
+	16, 17, 18,
+	18, 19, 16
+};
+
+
 int main()
 {
 	glfwInit();
@@ -117,6 +174,14 @@ int main()
 	VAO3.LinkAttrib(VBO3, 0, 3, GL_FLOAT, 6 * sizeof(float), (void*)0);
 	VAO3.LinkAttrib(VBO3, 1, 3, GL_FLOAT, 6 * sizeof(float), (void*)(3 * sizeof(float)));
 
+	// create room
+	VAO VAO4;
+	VAO4.Bind();
+	VBO VBO4(roomVertices, sizeof(roomVertices));
+	EBO EBO4(roomIndices, sizeof(roomIndices));
+	VAO4.LinkAttrib(VBO4, 0, 3, GL_FLOAT, 6 * sizeof(float), (void*)0);
+	VAO4.LinkAttrib(VBO4, 1, 3, GL_FLOAT, 6 * sizeof(float), (void*)(3 * sizeof(float)));
+
 	VAO1.Unbind();
 	VBO1.Unbind();
 	EBO1.Unbind();
@@ -126,6 +191,9 @@ int main()
 	VAO3.Unbind();
 	VBO3.Unbind();
 	EBO3.Unbind();
+	VAO4.Unbind();
+	VBO4.Unbind();
+	EBO4.Unbind();
 
 	// Textures
 	const std::string path = "../link.png";
@@ -135,8 +203,7 @@ int main()
 
 	glEnable(GL_DEPTH_TEST);
 
-	// Camera
-	Camera camera(800, 800, glm::vec3(0.0f, 0.0f, 2.0f));
+	Camera camera(800, 800, glm::vec3(0.0f, 0.0f, 6.0f));
 
 	while (!glfwWindowShouldClose(window))
 	{
@@ -198,6 +265,14 @@ int main()
 		glUniform1f(opacityLoc, 0.15f);
 
 		glDrawElements(GL_TRIANGLES, sizeof(pyramidIndices) / sizeof(GLuint), GL_UNSIGNED_INT, 0);
+
+		// modify and draw room
+		VAO4.Bind();
+		model = glm::mat4(1.0f);
+		model = glm::scale(model, glm::vec3(1.2f, 1.2f, 1.2f));
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		glUniform1f(opacityLoc, 1.0f);
+		glDrawElements(GL_TRIANGLES, sizeof(roomIndices) / sizeof(GLuint), GL_UNSIGNED_INT, 0);
 
 		glfwSwapBuffers(window);
 		glfwPollEvents();
