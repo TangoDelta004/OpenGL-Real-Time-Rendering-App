@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/libraries/lib/glfw/docs
+# Install script for directory: C:/Users/Nicholas Barreca/Graphics Projects/LearnOpenGL-CLion/libraries/lib/glfw/docs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,6 +34,6 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Program Files/JetBrains/CLion 2024.1.3/bin/mingw/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/objdump.exe")
 endif()
 

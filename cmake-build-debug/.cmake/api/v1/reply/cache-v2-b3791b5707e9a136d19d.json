@@ -27,7 +27,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files/JetBrains/CLion 2024.1.3/bin/mingw/bin/addr2line.exe"
+			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/addr2line.exe"
 		},
 		{
 			"name" : "CMAKE_AR",
@@ -43,7 +43,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files/JetBrains/CLion 2024.1.3/bin/mingw/bin/ar.exe"
+			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/ar.exe"
 		},
 		{
 			"name" : "CMAKE_BUILD_TYPE",
@@ -67,7 +67,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/cmake-build-debug"
+			"value" : "c:/Users/Nicholas Barreca/Graphics Projects/LearnOpenGL-CLion/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -91,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "28"
+			"value" : "29"
 		},
 		{
 			"name" : "CMAKE_CACHE_PATCH_VERSION",
@@ -103,7 +103,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "1"
+			"value" : "6"
 		},
 		{
 			"name" : "CMAKE_COLOR_DIAGNOSTICS",
@@ -127,7 +127,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Program Files/JetBrains/CLion 2024.1.3/bin/cmake/win/x64/bin/cmake.exe"
+			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/bin/cmake.exe"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -139,7 +139,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Program Files/JetBrains/CLion 2024.1.3/bin/cmake/win/x64/bin/cpack.exe"
+			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/bin/cpack.exe"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -151,7 +151,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Program Files/JetBrains/CLion 2024.1.3/bin/cmake/win/x64/bin/ctest.exe"
+			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/bin/ctest.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER",
@@ -167,7 +167,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files/JetBrains/CLion 2024.1.3/bin/mingw/bin/g++.exe"
+			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/g++.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
@@ -183,7 +183,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files/JetBrains/CLion 2024.1.3/bin/mingw/bin/gcc-ar.exe"
+			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/gcc-ar.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_RANLIB",
@@ -199,7 +199,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files/JetBrains/CLion 2024.1.3/bin/mingw/bin/gcc-ranlib.exe"
+			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/gcc-ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -311,7 +311,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files/JetBrains/CLion 2024.1.3/bin/mingw/bin/gcc.exe"
+			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/gcc.exe"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_AR",
@@ -327,7 +327,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files/JetBrains/CLion 2024.1.3/bin/mingw/bin/gcc-ar.exe"
+			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/gcc-ar.exe"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_RANLIB",
@@ -343,7 +343,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files/JetBrains/CLion 2024.1.3/bin/mingw/bin/gcc-ranlib.exe"
+			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/gcc-ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
@@ -455,7 +455,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files/JetBrains/CLion 2024.1.3/bin/mingw/bin/dlltool.exe"
+			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/dlltool.exe"
 		},
 		{
 			"name" : "CMAKE_EXECUTABLE_FORMAT",
@@ -587,7 +587,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/Nicholas Barreca/Graphics Projects/LearnOpenGL-CLion/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -671,7 +671,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion"
+			"value" : "C:/Users/Nicholas Barreca/Graphics Projects/LearnOpenGL-CLion"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -955,7 +955,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files/JetBrains/CLion 2024.1.3/bin/mingw/bin/ld.exe"
+			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/ld.exe"
 		},
 		{
 			"name" : "CMAKE_MAKE_PROGRAM",
@@ -967,7 +967,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files/JetBrains/CLion 2024.1.3/bin/ninja/win/x64/ninja.exe"
+			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -1063,7 +1063,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files/JetBrains/CLion 2024.1.3/bin/mingw/bin/nm.exe"
+			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/nm.exe"
 		},
 		{
 			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
@@ -1091,7 +1091,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files/JetBrains/CLion 2024.1.3/bin/mingw/bin/objcopy.exe"
+			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/objcopy.exe"
 		},
 		{
 			"name" : "CMAKE_OBJDUMP",
@@ -1107,7 +1107,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files/JetBrains/CLion 2024.1.3/bin/mingw/bin/objdump.exe"
+			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/objdump.exe"
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -1231,7 +1231,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files/JetBrains/CLion 2024.1.3/bin/mingw/bin/ranlib.exe"
+			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_RC_COMPILER",
@@ -1247,7 +1247,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files/JetBrains/CLion 2024.1.3/bin/mingw/bin/windres.exe"
+			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/windres.exe"
 		},
 		{
 			"name" : "CMAKE_RC_COMPILER_WORKS",
@@ -1355,7 +1355,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files/JetBrains/CLion 2024.1.3/bin/mingw/bin/readelf.exe"
+			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/readelf.exe"
 		},
 		{
 			"name" : "CMAKE_ROOT",
@@ -1367,7 +1367,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Program Files/JetBrains/CLion 2024.1.3/bin/cmake/win/x64/share/cmake-3.28"
+			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1575,7 +1575,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files/JetBrains/CLion 2024.1.3/bin/mingw/bin/strip.exe"
+			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/strip.exe"
 		},
 		{
 			"name" : "CMAKE_TAPI",
@@ -1671,7 +1671,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/cmake-build-debug/libraries/lib/glfw"
+			"value" : "C:/Users/Nicholas Barreca/Graphics Projects/LearnOpenGL-CLion/cmake-build-debug/libraries/lib/glfw"
 		},
 		{
 			"name" : "GLFW_BUILD_DOCS",
@@ -1791,7 +1791,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/libraries/lib/glfw"
+			"value" : "C:/Users/Nicholas Barreca/Graphics Projects/LearnOpenGL-CLion/libraries/lib/glfw"
 		},
 		{
 			"name" : "GLFW_USE_HYBRID_HPG",
@@ -1815,7 +1815,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/cmake-build-debug"
+			"value" : "C:/Users/Nicholas Barreca/Graphics Projects/LearnOpenGL-CLion/cmake-build-debug"
 		},
 		{
 			"name" : "LearnOpenGL-CLion_IS_TOP_LEVEL",
@@ -1839,7 +1839,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion"
+			"value" : "C:/Users/Nicholas Barreca/Graphics Projects/LearnOpenGL-CLion"
 		},
 		{
 			"name" : "OPENGL_gl_LIBRARY",

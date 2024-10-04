@@ -132,15 +132,15 @@
 			[
 				{
 					"backtrace" : 7,
-					"path" : "C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/libraries/lib/glfw/include"
+					"path" : "C:/Users/Nicholas Barreca/Graphics Projects/LearnOpenGL-CLion/libraries/lib/glfw/include"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/libraries/lib/glfw/src"
+					"path" : "C:/Users/Nicholas Barreca/Graphics Projects/LearnOpenGL-CLion/libraries/lib/glfw/src"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/cmake-build-debug/libraries/lib/glfw/src"
+					"path" : "C:/Users/Nicholas Barreca/Graphics Projects/LearnOpenGL-CLion/cmake-build-debug/libraries/lib/glfw/src"
 				}
 			],
 			"language" : "C",

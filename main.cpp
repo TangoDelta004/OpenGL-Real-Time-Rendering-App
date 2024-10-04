@@ -17,8 +17,8 @@
 #include"Camera.h"
 
 
-GLfloat triForceVertices[] =
-{ //               COORDINATES                  /      COLORS           //    tex or color: 1 = tex, 0 = color
+GLfloat triForceVertices[] ={
+	//               COORDINATES                  /      COLORS           //    tex or color: 1 = tex, 0 = color
 	-0.5f, -0.5f * float(sqrt(3)) * 1 / 3, 0.0f,     0.8f, 0.3f,  0.02f,   0.0f,
 	 0.5f, -0.5f * float(sqrt(3)) * 1 / 3, 0.0f,     0.8f, 0.3f,  0.02f,   0.0f,
 	 0.0f,  0.5f * float(sqrt(3)) * 2 / 3, 0.0f,     1.0f, 0.6f,  0.32f,   0.0f,
@@ -27,15 +27,14 @@ GLfloat triForceVertices[] =
 	 0.0f, -0.5f * float(sqrt(3)) * 1 / 3, 0.0f,     0.8f, 0.3f,  0.02f,   0.0f
 };
 
-GLuint triForceIndices[] =
-{
+GLuint triForceIndices[] = {
 	0, 3, 5, // Lower left triangle
 	3, 2, 4, // Lower right triangle
 	5, 4, 1 // Upper triangle
 };
 
-GLfloat linkVertices[] =
-{ //     COORDINATES     /        COLORS      /   TexCoord  // tex or color: 1 = tex, 0 = color
+GLfloat linkVertices[] ={
+	//     COORDINATES     /        COLORS      /   TexCoord  // tex or color: 1 = tex, 0 = color
 	-0.5f, -0.5f, 0.0f,     1.0f, 0.0f, 0.0f,	0.0f, 0.0f,    1.0f,
 	-0.5f,  0.5f, 0.0f,     0.0f, 1.0f, 0.0f,	0.0f, 1.0f,    1.0f,
 	 0.5f,  0.5f, 0.0f,     0.0f, 0.0f, 1.0f,	1.0f, 1.0f,    1.0f,
@@ -43,15 +42,13 @@ GLfloat linkVertices[] =
 };
 
 
-GLuint linkIndices[] =
-{
+GLuint linkIndices[] ={
 	0, 2, 1, // Upper triangle
 	0, 3, 2 // Lower triangle
 };
 
 
-GLfloat pyramidVertices[] =
-{
+GLfloat pyramidVertices[] ={
 	// positions          // colors
 	0.0f,  0.5f, 0.0f,   1.0f, 0.0f, 0.0f,
 	0.5f, -0.5f, 0.5f,   0.0f, 1.0f, 0.0f,
@@ -126,8 +123,7 @@ GLuint roomIndices[] = {
 };
 
 
-int main()
-{
+int main(){
 	glfwInit();
 
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
@@ -135,8 +131,7 @@ int main()
 	glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
 	GLFWwindow* window = glfwCreateWindow(800, 800, "OpenGL", NULL, NULL);
-	if (window == NULL)
-	{
+	if (window == NULL){
 		std::cout << "Failed to create GLFW window" << std::endl;
 		glfwTerminate();
 		return -1;
@@ -205,8 +200,7 @@ int main()
 
 	Camera camera(800, 800, glm::vec3(0.0f, 0.0f, 6.0f));
 
-	while (!glfwWindowShouldClose(window))
-	{
+	while (!glfwWindowShouldClose(window)){
 		glClearColor(0.07f, 0.13f, 0.17f, 1.0f);
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 		shaderProgram.Activate();

@@ -113,14 +113,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "LearnOpenGL-CLion::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-LearnOpenGL-CLion-Debug-1f1e0cd2deb375855441.json",
+					"jsonFile" : "target-LearnOpenGL-CLion-Debug-5809b659216f31905fcb.json",
 					"name" : "LearnOpenGL-CLion",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "glfw::@a5ee7a001844b0e4472e",
-					"jsonFile" : "target-glfw-Debug-af45c11855479f996337.json",
+					"jsonFile" : "target-glfw-Debug-00503c8750121ed601a9.json",
 					"name" : "glfw",
 					"projectIndex" : 1
 				},
@@ -144,12 +144,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion/cmake-build-debug",
-		"source" : "C:/Users/Nick/Graphics Projects/LearnOpenGL-CLion"
+		"build" : "C:/Users/Nicholas Barreca/Graphics Projects/LearnOpenGL-CLion/cmake-build-debug",
+		"source" : "C:/Users/Nicholas Barreca/Graphics Projects/LearnOpenGL-CLion"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 6
+		"minor" : 7
 	}
 }
