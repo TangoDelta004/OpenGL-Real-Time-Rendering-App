@@ -66,38 +66,61 @@ GLuint pyramidIndices[] = {
 	2, 3, 4
 };
 
+GLfloat lightVertices[] =
+{ //     COORDINATES     //
+	-0.1f, -0.1f,  0.1f,
+	-0.1f, -0.1f, -0.1f,
+	 0.1f, -0.1f, -0.1f,
+	 0.1f, -0.1f,  0.1f,
+	-0.1f,  0.1f,  0.1f,
+	-0.1f,  0.1f, -0.1f,
+	 0.1f,  0.1f, -0.1f,
+	 0.1f,  0.1f,  0.1f
+};
+
+GLuint lightIndices[] =
+{
+	0, 1, 2,
+	0, 2, 3,
+	0, 4, 7,
+	0, 7, 3,
+	3, 7, 6,
+	3, 6, 2,
+	2, 6, 5,
+	2, 5, 1,
+	1, 5, 4,
+	1, 4, 0,
+	4, 5, 6,
+	4, 6, 7
+};
 
 GLfloat roomVertices[] = {
-    // Positions          // Colors (shades of brown with shadows)
-    // Floor (dark brown with shadow)
-    -1.0f, -1.0f, -1.0f,  0.3f, 0.15f, 0.05f,  // 0
-     1.0f, -1.0f, -1.0f,  0.3f, 0.15f, 0.05f,  // 1
-     1.0f, -1.0f,  1.0f,  0.4f, 0.2f, 0.1f,    // 2
-    -1.0f, -1.0f,  1.0f,  0.4f, 0.2f, 0.1f,    // 3
-
-    // Ceiling (light brown)
-    -1.0f,  1.0f, -1.0f,  0.8f, 0.6f, 0.4f,    // 4
-     1.0f,  1.0f, -1.0f,  0.8f, 0.6f, 0.4f,    // 5
-     1.0f,  1.0f,  1.0f,  0.9f, 0.7f, 0.5f,    // 6
-    -1.0f,  1.0f,  1.0f,  0.9f, 0.7f, 0.5f,    // 7
-
-    // Back Wall (medium brown with shadow)
-    -1.0f, -1.0f, -1.0f,  0.5f, 0.3f, 0.1f,    // 8
-    -1.0f,  1.0f, -1.0f,  0.6f, 0.4f, 0.2f,    // 9
-     1.0f,  1.0f, -1.0f,  0.6f, 0.4f, 0.2f,    // 10
-     1.0f, -1.0f, -1.0f,  0.5f, 0.3f, 0.1f,    // 11
-
-    // Left Wall (brown with shadow)
-    -1.0f, -1.0f, -1.0f,  0.4f, 0.2f, 0.1f,    // 12
-    -1.0f, -1.0f,  1.0f,  0.5f, 0.3f, 0.1f,    // 13
-    -1.0f,  1.0f,  1.0f,  0.6f, 0.4f, 0.2f,    // 14
-    -1.0f,  1.0f, -1.0f,  0.5f, 0.3f, 0.1f,    // 15
-
-    // Right Wall (brown with shadow)
-     1.0f, -1.0f, -1.0f,  0.4f, 0.2f, 0.1f,    // 16
-     1.0f, -1.0f,  1.0f,  0.5f, 0.3f, 0.1f,    // 17
-     1.0f,  1.0f,  1.0f,  0.6f, 0.4f, 0.2f,    // 18
-     1.0f,  1.0f, -1.0f,  0.5f, 0.3f, 0.1f     // 19
+    // Positions          // Colors           // Normals
+    // Floor
+    -1.0f, -1.0f, -1.0f,  0.3f, 0.15f, 0.05f,   0.0f, -1.0f, 0.0f,
+     1.0f, -1.0f, -1.0f,  0.3f, 0.15f, 0.05f,   0.0f, -1.0f, 0.0f,
+     1.0f, -1.0f,  1.0f,  0.3f, 0.15f, 0.05f,   0.0f, -1.0f, 0.0f,
+    -1.0f, -1.0f,  1.0f,  0.3f, 0.15f, 0.05f,   0.0f, -1.0f, 0.0f,
+    // Ceiling
+    -1.0f,  1.0f, -1.0f,  0.3f, 0.15f, 0.05f,  0.0f, -1.0f, 0.0f,
+     1.0f,  1.0f, -1.0f,  0.3f, 0.15f, 0.05f,  0.0f, -1.0f, 0.0f,
+     1.0f,  1.0f,  1.0f,  0.3f, 0.15f, 0.05f,  0.0f, -1.0f, 0.0f,
+    -1.0f,  1.0f,  1.0f,  0.3f, 0.15f, 0.05f,  0.0f, -1.0f, 0.0f,
+    // Back Wall
+    -1.0f, -1.0f, -1.0f,  0.3f, 0.15f, 0.05f,  0.0f, 0.0f, -1.0f,
+    -1.0f,  1.0f, -1.0f,  0.3f, 0.15f, 0.05f,  0.0f, 0.0f, -1.0f,
+     1.0f,  1.0f, -1.0f,  0.3f, 0.15f, 0.05f,  0.0f, 0.0f, -1.0f,
+     1.0f, -1.0f, -1.0f,  0.3f, 0.15f, 0.05f,  0.0f, 0.0f, -1.0f,
+    // Left Wall
+    -1.0f, -1.0f, -1.0f,  0.3f, 0.15f, 0.05f,  -1.0f, 0.0f, 0.0f,
+    -1.0f, -1.0f,  1.0f,  0.3f, 0.15f, 0.05f,  -1.0f, 0.0f, 0.0f,
+    -1.0f,  1.0f,  1.0f,  0.3f, 0.15f, 0.05f,  -1.0f, 0.0f, 0.0f,
+    -1.0f,  1.0f, -1.0f,  0.3f, 0.15f, 0.05f,  -1.0f, 0.0f, 0.0f,
+    // Right Wall
+     1.0f, -1.0f, -1.0f,  0.3f, 0.15f, 0.05f,  -1.0f, 0.0f, 0.0f,
+     1.0f, -1.0f,  1.0f,  0.3f, 0.15f, 0.05f,  -1.0f, 0.0f, 0.0f,
+     1.0f,  1.0f,  1.0f,  0.3f, 0.15f, 0.05f,  -1.0f, 0.0f, 0.0f,
+     1.0f,  1.0f, -1.0f,  0.3f, 0.15f, 0.05f,  -1.0f, 0.0f, 0.0f,
 };
 
 GLuint roomIndices[] = {
@@ -174,8 +197,9 @@ int main(){
 	VAO4.Bind();
 	VBO VBO4(roomVertices, sizeof(roomVertices));
 	EBO EBO4(roomIndices, sizeof(roomIndices));
-	VAO4.LinkAttrib(VBO4, 0, 3, GL_FLOAT, 6 * sizeof(float), (void*)0);
-	VAO4.LinkAttrib(VBO4, 1, 3, GL_FLOAT, 6 * sizeof(float), (void*)(3 * sizeof(float)));
+	VAO4.LinkAttrib(VBO4, 0, 3, GL_FLOAT, 9 * sizeof(float), (void*)0);
+	VAO4.LinkAttrib(VBO4, 1, 3, GL_FLOAT, 9 * sizeof(float), (void*)(3 * sizeof(float)));
+	VAO4.LinkAttrib(VBO4, 4, 3, GL_FLOAT, 9 * sizeof(float), (void*)(6 * sizeof(float)));
 
 	VAO1.Unbind();
 	VBO1.Unbind();
@@ -190,6 +214,19 @@ int main(){
 	VBO4.Unbind();
 	EBO4.Unbind();
 
+	// lighting
+	Shader lightShader("../shaders/light.vert", "../shaders/light.frag");
+	VAO lightVAO;
+	lightVAO.Bind();
+	VBO lightVBO(lightVertices, sizeof(lightVertices));
+	EBO lightEBO(lightIndices, sizeof(lightIndices));
+	lightVAO.LinkAttrib(lightVBO, 0, 3, GL_FLOAT, 3 * sizeof(float), (void*)0);
+	lightVAO.Unbind();
+	lightVBO.Unbind();
+	lightEBO.Unbind();
+
+	glm::vec4 lightColor = glm::vec4(1.0f, 1.0f, 1.0f, 1.0f);
+
 	// Textures
 	const std::string path = "../link.png";
 	Texture link(&path[0], GL_TEXTURE_2D, GL_TEXTURE0, GL_RGBA, GL_UNSIGNED_BYTE);
@@ -203,8 +240,26 @@ int main(){
 	while (!glfwWindowShouldClose(window)){
 		glClearColor(0.07f, 0.13f, 0.17f, 1.0f);
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-		shaderProgram.Activate();
 
+		// modify and draw light source
+		lightShader.Activate();
+		camera.Matrix(45.0f, 0.1f, 100.0f, lightShader, "camera");
+		lightVAO.Bind();
+
+		glm::mat4 lightModel = glm::mat4(1.0f);
+		lightModel = glm::rotate(lightModel, glm::radians(180.0f), glm::vec3(1.0f, 0.0f, 0.0f));
+		lightModel = glm::rotate(lightModel, glm::radians((float)glfwGetTime() * 50.0f), glm::vec3(0.0f, 1.0f, 0.0f));
+		lightModel = glm::translate(lightModel, glm::vec3(0.0f, 0.0f, 3.0f));
+		lightModel = glm::scale(lightModel, glm::vec3(1.20f, 1.20f, 1.20f));
+		glUniformMatrix4fv(glGetUniformLocation(lightShader.ID, "model"), 1, GL_FALSE, glm::value_ptr(lightModel));
+		glUniform4f(glGetUniformLocation(lightShader.ID, "lightColor"), lightColor.x, lightColor.y, lightColor.z, lightColor.w);
+		glDrawElements(GL_TRIANGLES, sizeof(lightIndices) / sizeof(int), GL_UNSIGNED_INT, 0);
+
+		glm::vec3 lightPos = glm::vec3(lightModel[3]);
+
+		shaderProgram.Activate();
+		glUniform4f(glGetUniformLocation(shaderProgram.ID, "lightColor"), lightColor.x, lightColor.y, lightColor.z, lightColor.w);
+		glUniform3f(glGetUniformLocation(shaderProgram.ID, "lightPos"), lightPos.x, lightPos.y, lightPos.z);
 
 		// Handles camera inputs
 		camera.Inputs(window);
@@ -247,6 +302,7 @@ int main(){
 		glUniform1f(opacityLoc, 0.15f);
 
 		glDrawElements(GL_TRIANGLES, 9, GL_UNSIGNED_INT, 0);
+		glDisable(GL_BLEND);
 
 		// modify and draw pyramid
 		VAO3.Bind();
